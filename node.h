@@ -4,6 +4,11 @@
       can be used in the construction of linked lists.
                 John Dolan  		March 2009
 *************************************************************************/
+///
+///@file node.h
+///@Author John Dolan
+///@brief Features a node class that can be used to contruct linked lists
+///
 
 #ifndef NODE_H
 #define NODE_H

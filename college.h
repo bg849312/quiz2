@@ -5,6 +5,13 @@
 //10/8/2015
 //********************
 
+///
+///@file college.h
+///@Author Matthew Aberegg
+///@brief .h file fore college.cc
+///
+///
+
 #include <iostream>
 #include <fstream>
 #include <string>

@@ -4,6 +4,13 @@
 //CS 2401
 //10/8/2015
 //********************
+
+///
+///@file college.cc
+///@Author Matthew Aberegg
+///@brief Contains function for college class
+///
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>

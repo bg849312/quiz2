@@ -12,6 +12,12 @@
 	John Dolan			Spring 2015
 **********************************************************/
 
+///
+///@file collegemain.cc
+///@Author John Dolan
+///@brief The main file of this project, the implementation file 
+///
+
 #include <iostream>
 #include <fstream>
 #include <string>

@@ -3,6 +3,14 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+
+///
+///@file course.cc
+///@Author John Dolan
+///@brief Implementation file for course.h
+///
+///
+
 #include "course.h"
 #include<cstdlib>
 #include<iostream>
@@ -13,6 +21,12 @@ using namespace std;
 course::course(){
     hours = 0.0;
 }
+
+
+///
+///Input function, needs an instream, uses user inputs to output course number
+///grade and credit hours
+///
 
 void course::input(std::istream& ins){
     if(ins == cin){
@@ -39,6 +53,10 @@ void course::input(std::istream& ins){
     }
 }
 
+///
+///Displays the inputs from the previous function all together
+///
+
 void course::output(std::ostream& outs)const{
     if(outs == cout){
 	outs<<"Course Number:"<<course_number<<endl;
@@ -52,6 +70,10 @@ void course::output(std::ostream& outs)const{
       }
 }
 
+///
+///This function takes the grade that was received and returns the value in terms 
+///of gpa 
+///
 
 double course::get_number_grade()const{
     if(grade == "A") return 4.0;

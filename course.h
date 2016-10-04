@@ -7,6 +7,12 @@
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
 
+///
+///@file course.h
+///@Author John Dolan
+///@brief Class that stores the three features of the completed college course
+///
+
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

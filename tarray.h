@@ -8,6 +8,12 @@
 	John Dolan			Ohio University 
 ********************************************************************/
 
+///
+///@file tarray.h
+///@Author John Dolan
+///@brief Contains template classes
+///
+
 #include<iostream>
 
 template<class T>
